@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow IT Report - Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <svg viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M15.967 27.994c-.527 0-1.054-.2-1.456-.6l-3.792-3.8a2.066 2.066 0 010-2.92l3.792-3.8a2.052 2.052 0 012.912 0l3.792 3.8c.803.805.803 2.115 0 2.92l-3.792 3.8c-.402.4-.929.6-1.456.6zm0-11.268c-.527 0-1.054-.2-1.456-.6l-3.792-3.8a2.066 2.066 0 010-2.92l3.792-3.8a2.052 2.052 0 012.912 0l3.792 3.8c.803.805.803 2.115 0 2.92l-3.792 3.8c-.402.4-.929.6-1.456.6z"/>
+                </svg>
+                Shadow IT Report
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="index.html" class="active">Dashboard</a></li>
+                <li><a href="sites.html">Sitios</a></li>
+                <li><a href="apps.html">Apps</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="summary-bar">
+            <div>
+                <h2>Informe Shadow IT - Atlassian</h2>
+                <p class="date">Sitios no gestionados detectados en la organización</p>
+            </div>
+        </div>
+
+        <!-- Main Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon primary">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <div class="stat-value" id="total-sites">-</div>
+                <div class="stat-label">Total Sitios</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon success">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                </div>
+                <div class="stat-value" id="total-users">-</div>
+                <div class="stat-label">Total Usuarios</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon success">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                </div>
+                <div class="stat-value" id="active-sites">-</div>
+                <div class="stat-label">Sitios Activos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon warning">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <div class="stat-value" id="suspended-sites">-</div>
+                <div class="stat-label">Sitios Suspendidos</div>
+            </div>
+        </div>
+
+        <!-- Products Overview -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Productos Atlassian</h3>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-value" id="jira-software">-</div>
+                    <div class="stat-label">Jira Software</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: rgba(101, 84, 192, 0.1); color: #6554C0;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-value" id="jira-servicedesk">-</div>
+                    <div class="stat-label">Jira Service Desk</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-value" id="jira-business">-</div>
+                    <div class="stat-label">Jira Business</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon success">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-value" id="confluence-spaces">-</div>
+                    <div class="stat-label">Espacios Confluence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon warning">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-value" id="total-apps">-</div>
+                    <div class="stat-label">Apps Instaladas</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-title">Distribución por Estado</div>
+                <canvas id="status-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">Productos por Sitio</div>
+                <canvas id="products-chart"></canvas>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Top 10 Sitios por Usuarios</h3>
+            </div>
+            <div style="height: 400px;">
+                <canvas id="users-chart"></canvas>
+            </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Actividad Reciente</h3>
+                <a href="sites.html" class="site-link">Ver todos</a>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sitio</th>
+                            <th>Usuarios</th>
+                            <th>Productos</th>
+                            <th>Última Actividad</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recent-activity-body">
+                        <tr>
+                            <td colspan="5" class="loading">
+                                <div class="spinner"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

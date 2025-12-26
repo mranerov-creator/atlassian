@@ -1,0 +1,970 @@
+// Shadow IT Report - Embedded Data
+// Generated at: 2025-12-26T09:53:04Z
+
+const REPORT_DATA = 
+{
+  "generated_at": "2025-12-26T09:52:52.489321Z",
+  "summary": {
+    "total_sites": 30,
+    "total_users": 1350,
+    "total_jira_projects": {
+      "software": 0,
+      "service_desk": 3,
+      "business": 0
+    },
+    "total_confluence_spaces": 0,
+    "total_apps": 0,
+    "status_distribution": {
+      "Active": 23,
+      "Suspended": 7
+    }
+  },
+  "apps": {},
+  "sites": [
+    {
+      "url": "myzu.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.488986Z",
+      "user_count": 88,
+      "created_on": "2024-08-22T23:53:51Z",
+      "last_active_csv": "2025-12-24T08:50:55.27Z",
+      "admins": [
+        "Ángel Uruñuela (Org admin) <aurunuela@fluidra.com>",
+        "Laia Consola (Org admin) <lconsola@fluidra.com>",
+        "Alberto Hervalejo (Org admin) <ahervalejo@fluidra.com>",
+        "securitybtg (Org admin) <securitybtg@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-12-24T08:50:55.27Z",
+      "last_confluence_activity": "2025-12-24T08:50:55.27Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "certikinukit.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489015Z",
+      "user_count": 69,
+      "created_on": "2025-12-09T10:36:45Z",
+      "last_active_csv": null,
+      "admins": [],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-pdwi6nsw.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489022Z",
+      "user_count": 67,
+      "created_on": "2025-11-06T18:08:55Z",
+      "last_active_csv": null,
+      "admins": [
+        "Meenakshi Rajan (Org admin) <rajan@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-c2e1ihku.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489032Z",
+      "user_count": 67,
+      "created_on": "2025-11-17T03:03:04Z",
+      "last_active_csv": null,
+      "admins": [
+        "Abhay Shriramwar (Org admin) <ashriramwar@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-uec5ouas.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489037Z",
+      "user_count": 66,
+      "created_on": "2025-11-06T09:30:49Z",
+      "last_active_csv": null,
+      "admins": [
+        "youssef hriouech raji (Org admin) <yhriouech@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "troy111.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489042Z",
+      "user_count": 66,
+      "created_on": "2025-11-06T23:17:20Z",
+      "last_active_csv": null,
+      "admins": [
+        "Troy Budge (Org admin) <tbudge@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidraindia.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489046Z",
+      "user_count": 65,
+      "created_on": "2025-10-29T10:55:30Z",
+      "last_active_csv": null,
+      "admins": [
+        "Meenakshi Rajan (Org admin) <rajan@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-t5osvd1v.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489058Z",
+      "user_count": 62,
+      "created_on": "2025-09-05T07:28:28Z",
+      "last_active_csv": null,
+      "admins": [
+        "Gerardo Villavicencio Sanchez (Org admin) <gvillavicencio@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-lj4p334r.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489064Z",
+      "user_count": 61,
+      "created_on": "2025-09-19T17:26:42Z",
+      "last_active_csv": null,
+      "admins": [
+        "Travis Sullivan (Org admin) <tsullivan@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": false
+    },
+    {
+      "url": "fluidra-team-pl8tw7kq.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489069Z",
+      "user_count": 61,
+      "created_on": "2025-09-08T11:07:56Z",
+      "last_active_csv": null,
+      "admins": [
+        "Ravindra kale (Org admin) <rkale@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": false
+    },
+    {
+      "url": "partner-team-osxdvqab.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489073Z",
+      "user_count": 58,
+      "created_on": "2025-07-16T10:51:03Z",
+      "last_active_csv": "2025-07-16T11:18:46.252Z",
+      "admins": [
+        "msansano (Org admin) <msansano@partner.fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-07-16T11:18:46.252Z",
+      "last_confluence_activity": "2025-07-16T11:18:46.252Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-wzxhcg3s.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489077Z",
+      "user_count": 57,
+      "created_on": "2025-07-22T15:39:16Z",
+      "last_active_csv": null,
+      "admins": [
+        "satish Potnuru (Org admin) <spotnuru@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-haumm8tb.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489081Z",
+      "user_count": 56,
+      "created_on": "2025-09-24T03:27:01Z",
+      "last_active_csv": null,
+      "admins": [
+        "Aini Nurul (Org admin) <anurul@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-el2coquz.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489094Z",
+      "user_count": 56,
+      "created_on": "2025-09-04T19:39:16Z",
+      "last_active_csv": null,
+      "admins": [
+        "Justin Singh (Org admin) <jsingh@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-wanp54ar.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489098Z",
+      "user_count": 56,
+      "created_on": "2025-09-09T08:51:49Z",
+      "last_active_csv": "2025-09-09T08:59:33.313Z",
+      "admins": [
+        "Emilio Serrano (Org admin) <eserrano@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-09-09T08:59:33.313Z",
+      "last_confluence_activity": "2025-09-09T08:59:33.313Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-sj531f70.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489102Z",
+      "user_count": 54,
+      "created_on": "2025-08-06T20:42:00Z",
+      "last_active_csv": "2025-08-06T20:44:00.38Z",
+      "admins": [
+        "Justin Singh (Org admin) <jsingh@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-08-06T20:44:00.38Z",
+      "last_confluence_activity": "2025-08-06T20:44:00.38Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-t3pqlt3c.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489106Z",
+      "user_count": 53,
+      "created_on": "2025-07-28T08:00:34Z",
+      "last_active_csv": "2025-07-28T08:01:04.269Z",
+      "admins": [
+        "Alberto Hermosa (Org admin) <ahermosa@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-07-28T08:01:04.269Z",
+      "last_confluence_activity": "2025-07-28T08:01:04.269Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-innovation.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489110Z",
+      "user_count": 51,
+      "created_on": "2025-05-30T15:06:04Z",
+      "last_active_csv": "2025-06-12T05:48:54.67Z",
+      "admins": [
+        "Nicolas Bouchain (Org admin) <nbouchain@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-06-12T05:48:54.67Z",
+      "last_confluence_activity": "2025-06-12T05:48:54.67Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra8commercial8construction.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489114Z",
+      "user_count": 51,
+      "created_on": "2025-05-22T12:51:00Z",
+      "last_active_csv": "2025-05-22T12:51:49.532Z",
+      "admins": [
+        "NMurata (Org admin) <nmurata@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-05-22T12:51:49.532Z",
+      "last_confluence_activity": "2025-05-22T12:51:49.532Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": false
+    },
+    {
+      "url": "fluidra-team-z2r8z8xt.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489118Z",
+      "user_count": 51,
+      "created_on": "2025-07-11T09:25:21Z",
+      "last_active_csv": "2025-07-11T10:58:29.326Z",
+      "admins": [
+        "Daniel Schweitzer (Org admin) <dschweitzer@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-07-11T10:58:29.326Z",
+      "last_confluence_activity": "2025-07-11T10:58:29.326Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-kvo05i5m.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489122Z",
+      "user_count": 49,
+      "created_on": "2024-12-19T07:52:41Z",
+      "last_active_csv": null,
+      "admins": [
+        "Steve Fallon (Org admin) <sfallon@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "ttrotta.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489126Z",
+      "user_count": 16,
+      "created_on": "2023-07-18T00:20:52Z",
+      "last_active_csv": "2023-07-19T00:57:29.422Z",
+      "admins": [
+        "Tom Trotta (Org admin) <ttrotta@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira",
+        "jira-servicedesk",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 1,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2023-07-19T00:57:29.422Z",
+      "last_confluence_activity": "2023-07-19T00:57:29.422Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-e9bpoo8q.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489130Z",
+      "user_count": 14,
+      "created_on": "2025-03-07T08:34:21Z",
+      "last_active_csv": "2025-06-25T14:37:50.727Z",
+      "admins": [
+        "Nikolay (Org admin) <nvalkov@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "jira",
+        "jira-servicedesk"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 1,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-06-25T14:37:50.727Z",
+      "last_confluence_activity": "2025-06-25T14:37:50.727Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": false
+    },
+    {
+      "url": "uk-it.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489134Z",
+      "user_count": 14,
+      "created_on": "2025-12-09T10:54:15Z",
+      "last_active_csv": "2025-12-12T16:18:40.834Z",
+      "admins": [],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "jira-servicedesk",
+        "jira",
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 1,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-12-12T16:18:40.834Z",
+      "last_confluence_activity": "2025-12-12T16:18:40.834Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": true,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-cwte3a9b.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489137Z",
+      "user_count": 7,
+      "created_on": "2025-03-24T03:54:36Z",
+      "last_active_csv": null,
+      "admins": [
+        "Mayuri Narvekar (Org admin) <mnarvekar@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-ncl79b6x.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489141Z",
+      "user_count": 7,
+      "created_on": "2025-06-23T11:01:36Z",
+      "last_active_csv": "2025-06-23T11:28:21.712Z",
+      "admins": [
+        "Devangi Prajapati (Org admin) <dprajapati@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-06-23T11:28:21.712Z",
+      "last_confluence_activity": "2025-06-23T11:28:21.712Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-zn777383.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489148Z",
+      "user_count": 7,
+      "created_on": "2025-04-03T13:36:14Z",
+      "last_active_csv": "2025-12-05T13:38:26.321Z",
+      "admins": [
+        "Laurent Sentenac (Org admin) <lsentenac@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-12-05T13:38:26.321Z",
+      "last_confluence_activity": "2025-12-05T13:38:26.321Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "quanlin.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489152Z",
+      "user_count": 7,
+      "created_on": "2024-07-23T22:28:39Z",
+      "last_active_csv": "2025-10-28T02:23:04.64Z",
+      "admins": [
+        "Quan Lin (Org admin) <qlin@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-10-28T02:23:04.64Z",
+      "last_confluence_activity": "2025-10-28T02:23:04.64Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-sz73caze.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489156Z",
+      "user_count": 7,
+      "created_on": "2025-06-17T04:19:56Z",
+      "last_active_csv": "2025-08-13T03:18:26.633Z",
+      "admins": [
+        "qnguyen (Org admin) <qnguyen@fluidra.com>"
+      ],
+      "status": "Active",
+      "status_details": "",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-08-13T03:18:26.633Z",
+      "last_confluence_activity": "2025-08-13T03:18:26.633Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    },
+    {
+      "url": "fluidra-team-ryikxs4f.atlassian.net",
+      "scan_timestamp": "2025-12-26T09:52:52.489159Z",
+      "user_count": 7,
+      "created_on": "2025-05-27T13:01:05Z",
+      "last_active_csv": "2025-06-23T10:58:07.863Z",
+      "admins": [
+        "Devangi Prajapati (Org admin) <dprajapati@fluidra.com>"
+      ],
+      "status": "Suspended",
+      "status_details": "suspended-inactivity",
+      "products": [
+        "confluence"
+      ],
+      "jira_projects": {
+        "software": 0,
+        "service_desk": 0,
+        "business": 0
+      },
+      "jira_project_details": [],
+      "confluence_spaces": 0,
+      "confluence_space_details": [],
+      "installed_apps": [],
+      "last_jira_activity": "2025-06-23T10:58:07.863Z",
+      "last_confluence_activity": "2025-06-23T10:58:07.863Z",
+      "errors": [
+        "Datos de API no disponibles (modo --skip-api)"
+      ],
+      "has_jira": false,
+      "has_confluence": true
+    }
+  ]
+}
+;

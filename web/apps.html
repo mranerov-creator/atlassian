@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps Instaladas - Shadow IT Report</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <svg viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M15.967 27.994c-.527 0-1.054-.2-1.456-.6l-3.792-3.8a2.066 2.066 0 010-2.92l3.792-3.8a2.052 2.052 0 012.912 0l3.792 3.8c.803.805.803 2.115 0 2.92l-3.792 3.8c-.402.4-.929.6-1.456.6zm0-11.268c-.527 0-1.054-.2-1.456-.6l-3.792-3.8a2.066 2.066 0 010-2.92l3.792-3.8a2.052 2.052 0 012.912 0l3.792 3.8c.803.805.803 2.115 0 2.92l-3.792 3.8c-.402.4-.929.6-1.456.6z"/>
+                </svg>
+                Shadow IT Report
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="sites.html">Sitios</a></li>
+                <li><a href="apps.html" class="active">Apps</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>Apps Instaladas</h1>
+            <p>Aplicaciones del Marketplace detectadas en sitios shadow IT - <span id="apps-count">0 apps</span></p>
+        </div>
+
+        <div class="card">
+            <p class="text-muted mb-2">
+                Esta lista muestra las aplicaciones del Atlassian Marketplace instaladas en los sitios shadow IT.
+                Los datos de apps requieren ejecutar el script de extracción con credenciales de administrador de cada sitio.
+            </p>
+        </div>
+
+        <div id="apps-container">
+            <div class="loading">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
