@@ -542,14 +542,18 @@ def main():
     parser = argparse.ArgumentParser(
         description="Extrae datos de sitios Atlassian para informe de Shadow IT"
     )
+    # Credenciales por defecto
+    DEFAULT_EMAIL = "maranero@knowmadmood.com"
+    DEFAULT_TOKEN = "ATATT3xFfGF0G79mYZovekTbE8aN09c42ES66dfYKlepay5pEXpMSafF9BU_ZT60CeAFzHVyZOAr9IpTVrmhncSHEHlquHq_7kKGHBzXGGPqL0Z90ZKzmiJsV1kd0Qm02N5CK70Vfm4t1EWVhEj3_RfQdv3-GaO47HZSJpcAWgbcdPzXNo_Fs3M=0AD5A39C"
+
     parser.add_argument(
         "--email",
-        default=os.environ.get("ATLASSIAN_EMAIL"),
+        default=os.environ.get("ATLASSIAN_EMAIL", DEFAULT_EMAIL),
         help="Email de usuario Atlassian"
     )
     parser.add_argument(
         "--token",
-        default=os.environ.get("ATLASSIAN_API_TOKEN"),
+        default=os.environ.get("ATLASSIAN_API_TOKEN", DEFAULT_TOKEN),
         help="API Token de Atlassian"
     )
     parser.add_argument(

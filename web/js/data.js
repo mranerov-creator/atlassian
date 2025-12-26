@@ -1,18 +1,18 @@
 // Shadow IT Report - Embedded Data
-// Generated at: 2025-12-26T09:53:04Z
+// Generated at: 2025-12-26T10:11:57Z
 
 const REPORT_DATA = 
 {
-  "generated_at": "2025-12-26T09:52:52.489321Z",
+  "generated_at": "2025-12-26T10:11:43.648075Z",
   "summary": {
     "total_sites": 30,
     "total_users": 1350,
     "total_jira_projects": {
-      "software": 0,
-      "service_desk": 3,
+      "software": 15,
+      "service_desk": 0,
       "business": 0
     },
-    "total_confluence_spaces": 0,
+    "total_confluence_spaces": 50,
     "total_apps": 0,
     "status_distribution": {
       "Active": 23,
@@ -23,7 +23,7 @@ const REPORT_DATA =
   "sites": [
     {
       "url": "myzu.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.488986Z",
+      "scan_timestamp": "2025-12-26T10:10:21.241720Z",
       "user_count": 88,
       "created_on": "2024-08-22T23:53:51Z",
       "last_active_csv": "2025-12-24T08:50:55.27Z",
@@ -47,17 +47,15 @@ const REPORT_DATA =
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-12-24T08:50:55.27Z",
-      "last_confluence_activity": "2025-12-24T08:50:55.27Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "certikinukit.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489015Z",
+      "scan_timestamp": "2025-12-26T10:10:23.676381Z",
       "user_count": 69,
       "created_on": "2025-12-09T10:36:45Z",
       "last_active_csv": null,
@@ -79,15 +77,13 @@ const REPORT_DATA =
       "installed_apps": [],
       "last_jira_activity": null,
       "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-pdwi6nsw.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489022Z",
+      "scan_timestamp": "2025-12-26T10:10:26.566709Z",
       "user_count": 67,
       "created_on": "2025-11-06T18:08:55Z",
       "last_active_csv": null,
@@ -106,20 +102,43 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
+      "confluence_spaces": 4,
+      "confluence_space_details": [
+        {
+          "key": "~71202015d403f3579d46b282753e78518ad854",
+          "name": "Meenakshi Rajan",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "PM",
+          "name": "Project Management",
+          "type": "onboarding",
+          "last_updated": null
+        },
+        {
+          "key": "PM1",
+          "name": "Project Management",
+          "type": "onboarding",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
       "installed_apps": [],
       "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_confluence_activity": "2025-12-11T06:54:33.714Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-c2e1ihku.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489032Z",
+      "scan_timestamp": "2025-12-26T10:10:29.863081Z",
       "user_count": 67,
       "created_on": "2025-11-17T03:03:04Z",
       "last_active_csv": null,
@@ -133,25 +152,43 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
+      "jira_project_details": [
+        {
+          "key": "NM",
+          "name": "NGA Milestones",
+          "project_type": "software",
+          "last_updated": null
+        }
+      ],
+      "confluence_spaces": 2,
+      "confluence_space_details": [
+        {
+          "key": "MFS",
+          "name": "My first space",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~712020469d4f14bc6d400f85e0690f680b75fd",
+          "name": "Abhay Shriramwar",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
       "installed_apps": [],
       "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_confluence_activity": "2025-12-09T05:31:11.420Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-uec5ouas.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489037Z",
+      "scan_timestamp": "2025-12-26T10:10:33.659939Z",
       "user_count": 66,
       "created_on": "2025-11-06T09:30:49Z",
       "last_active_csv": null,
@@ -165,25 +202,43 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "jira_project_details": [
+        {
+          "key": "KAN",
+          "name": "My Kanban Project",
+          "project_type": "software",
+          "last_updated": "2025-11-06T10:31:49.460+0100"
+        }
       ],
+      "confluence_spaces": 2,
+      "confluence_space_details": [
+        {
+          "key": "MKP",
+          "name": "My Kanban Project",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
+      "installed_apps": [],
+      "last_jira_activity": "2025-11-06T10:31:49.460+0100",
+      "last_confluence_activity": "2025-12-25T08:47:18.682Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "troy111.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489042Z",
+      "scan_timestamp": "2025-12-26T10:10:38.703255Z",
       "user_count": 66,
       "created_on": "2025-11-06T23:17:20Z",
       "last_active_csv": null,
@@ -197,25 +252,55 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "jira_project_details": [
+        {
+          "key": "TC",
+          "name": "Teamwork Collection how-to",
+          "project_type": "software",
+          "last_updated": "2025-11-07T09:18:29.186+1000"
+        }
       ],
+      "confluence_spaces": 4,
+      "confluence_space_details": [
+        {
+          "key": "TWC",
+          "name": "Teamwork Collection",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~63fd103d314f50881380f9d3",
+          "name": "Troy Budge",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "IS",
+          "name": "IT Support",
+          "type": "onboarding",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
+      "installed_apps": [],
+      "last_jira_activity": "2025-11-07T09:18:29.186+1000",
+      "last_confluence_activity": "2025-12-25T08:47:30.953Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidraindia.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489046Z",
+      "scan_timestamp": "2025-12-26T10:10:41.993352Z",
       "user_count": 65,
       "created_on": "2025-10-29T10:55:30Z",
       "last_active_csv": null,
@@ -229,25 +314,37 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "jira_project_details": [
+        {
+          "key": "KAN",
+          "name": "My Kanban Project",
+          "project_type": "software",
+          "last_updated": "2025-10-29T16:27:05.559+0530"
+        }
       ],
+      "confluence_spaces": 1,
+      "confluence_space_details": [
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
+      "installed_apps": [],
+      "last_jira_activity": "2025-10-29T16:27:05.559+0530",
+      "last_confluence_activity": "2025-12-11T06:54:33.596Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-t5osvd1v.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489058Z",
+      "scan_timestamp": "2025-12-26T10:10:46.188943Z",
       "user_count": 62,
       "created_on": "2025-09-05T07:28:28Z",
       "last_active_csv": null,
@@ -261,25 +358,37 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "jira_project_details": [
+        {
+          "key": "MFLP",
+          "name": "Microfinance Lending Platform",
+          "project_type": "software",
+          "last_updated": "2025-09-05T09:29:07.636+0200"
+        }
       ],
+      "confluence_spaces": 1,
+      "confluence_space_details": [
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
+      "installed_apps": [],
+      "last_jira_activity": "2025-09-05T09:29:07.636+0200",
+      "last_confluence_activity": "2025-12-24T10:34:20.499Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-lj4p334r.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489064Z",
+      "scan_timestamp": "2025-12-26T10:10:48.800947Z",
       "user_count": 61,
       "created_on": "2025-09-19T17:26:42Z",
       "last_active_csv": null,
@@ -292,25 +401,36 @@ const REPORT_DATA =
         "jira"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 2,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
+      "jira_project_details": [
+        {
+          "key": "CRM",
+          "name": "Customer Relationship Management System",
+          "project_type": "software",
+          "last_updated": "2025-09-19T12:27:11.947-0500"
+        },
+        {
+          "key": "LEARNJIRA",
+          "name": "(Learn) Jira Premium benefits in 5 min 👋",
+          "project_type": "software",
+          "last_updated": "2025-09-19T12:27:21.498-0500"
+        }
+      ],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": null,
+      "last_jira_activity": "2025-09-19T12:27:21.498-0500",
       "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "errors": [],
       "has_jira": true,
       "has_confluence": false
     },
     {
       "url": "fluidra-team-pl8tw7kq.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489069Z",
+      "scan_timestamp": "2025-12-26T10:10:51.155928Z",
       "user_count": 61,
       "created_on": "2025-09-08T11:07:56Z",
       "last_active_csv": null,
@@ -323,25 +443,36 @@ const REPORT_DATA =
         "jira"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 2,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
+      "jira_project_details": [
+        {
+          "key": "KAN",
+          "name": "My Kanban Project",
+          "project_type": "software",
+          "last_updated": null
+        },
+        {
+          "key": "LEARNJIRA",
+          "name": "(Learn) Jira Premium benefits in 5 min 👋",
+          "project_type": "software",
+          "last_updated": "2025-09-08T04:08:56.918-0700"
+        }
+      ],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": null,
+      "last_jira_activity": "2025-09-08T04:08:56.918-0700",
       "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "errors": [],
       "has_jira": true,
       "has_confluence": false
     },
     {
       "url": "partner-team-osxdvqab.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489073Z",
+      "scan_timestamp": "2025-12-26T10:10:54.489031Z",
       "user_count": 58,
       "created_on": "2025-07-16T10:51:03Z",
       "last_active_csv": "2025-07-16T11:18:46.252Z",
@@ -355,25 +486,42 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 3,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
+      "jira_project_details": [
+        {
+          "key": "KAN",
+          "name": "My Kanban Project",
+          "project_type": "software",
+          "last_updated": null
+        },
+        {
+          "key": "LEARNJIRA",
+          "name": "(Learn) Jira Premium benefits in 5 min 👋",
+          "project_type": "software",
+          "last_updated": "2025-07-16T12:53:36.575+0200"
+        },
+        {
+          "key": "SAM1",
+          "name": "(Example) Advanced Modeling Techniques",
+          "project_type": "software",
+          "last_updated": "2025-07-16T12:51:56.084+0200"
+        }
+      ],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-07-16T11:18:46.252Z",
-      "last_confluence_activity": "2025-07-16T11:18:46.252Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": "2025-07-16T12:53:36.575+0200",
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-wzxhcg3s.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489077Z",
+      "scan_timestamp": "2025-12-26T10:10:57.109283Z",
       "user_count": 57,
       "created_on": "2025-07-22T15:39:16Z",
       "last_active_csv": null,
@@ -387,25 +535,30 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
+      "jira_project_details": [
+        {
+          "key": "CCS",
+          "name": "Chatbot for Customer Support",
+          "project_type": "software",
+          "last_updated": "2025-07-22T08:40:24.847-0700"
+        }
+      ],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": null,
+      "last_jira_activity": "2025-07-22T08:40:24.847-0700",
       "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-haumm8tb.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489081Z",
+      "scan_timestamp": "2025-12-26T10:11:01.227576Z",
       "user_count": 56,
       "created_on": "2025-09-24T03:27:01Z",
       "last_active_csv": null,
@@ -423,20 +576,43 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
+      "confluence_spaces": 4,
+      "confluence_space_details": [
+        {
+          "key": "MFS",
+          "name": "My first space",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~63e0eed0f1475ad42c5b3235",
+          "name": "Aini Nurul",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "~HUB-9cdf3c9b-5a85-4c74-8e45-699035a61eed-ab3d7a5f-08d8-44d6-a219-886bb5086466~",
+          "name": "Company hub",
+          "type": "system",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
       "installed_apps": [],
       "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_confluence_activity": "2025-12-25T08:48:37.371Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-el2coquz.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489094Z",
+      "scan_timestamp": "2025-12-26T10:11:03.021504Z",
       "user_count": 56,
       "created_on": "2025-09-04T19:39:16Z",
       "last_active_csv": null,
@@ -454,20 +630,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~5d492888c047aa0c6d6f94a9",
+          "name": "Justin Singh",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "CS",
+          "name": "Customer Support",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
       "installed_apps": [],
       "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_confluence_activity": "2025-12-25T08:48:45.656Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-wanp54ar.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489098Z",
+      "scan_timestamp": "2025-12-26T10:11:06.038349Z",
       "user_count": 56,
       "created_on": "2025-09-09T08:51:49Z",
       "last_active_csv": "2025-09-09T08:59:33.313Z",
@@ -485,20 +678,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-09-09T08:59:33.313Z",
-      "last_confluence_activity": "2025-09-09T08:59:33.313Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~5e79c4e56a8be00c35d57b91",
+          "name": "Emilio Serrano",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "DISEO",
+          "name": "Diseño",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:48:51.874Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-sj531f70.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489102Z",
+      "scan_timestamp": "2025-12-26T10:11:08.196315Z",
       "user_count": 54,
       "created_on": "2025-08-06T20:42:00Z",
       "last_active_csv": "2025-08-06T20:44:00.38Z",
@@ -516,20 +726,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-08-06T20:44:00.38Z",
-      "last_confluence_activity": "2025-08-06T20:44:00.38Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~5d492888c047aa0c6d6f94a9",
+          "name": "Justin Singh",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "CS",
+          "name": "Customer Support",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:48:45.535Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-t3pqlt3c.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489106Z",
+      "scan_timestamp": "2025-12-26T10:11:10.598685Z",
       "user_count": 53,
       "created_on": "2025-07-28T08:00:34Z",
       "last_active_csv": "2025-07-28T08:01:04.269Z",
@@ -547,20 +774,55 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-07-28T08:01:04.269Z",
-      "last_confluence_activity": "2025-07-28T08:01:04.269Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 6,
+      "confluence_space_details": [
+        {
+          "key": "~61d2e0b4f63ac800705c568f",
+          "name": "Alberto Hermosa",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "~HUB-cec06b4c-4b4f-424f-9cbc-b913a0756285-e104a6b9-549c-4901-9cbe-5620161c3171~",
+          "name": "Company hub",
+          "type": "system",
+          "last_updated": null
+        },
+        {
+          "key": "~5d9afe0010f4800c341a2bba",
+          "name": "Opsgenie Incident Timeline",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "MFS",
+          "name": "My first space",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~5b70c8b80fd0ac05d389f5e9",
+          "name": "Chat Notifications",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:48:59.113Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-innovation.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489110Z",
+      "scan_timestamp": "2025-12-26T10:11:12.680141Z",
       "user_count": 51,
       "created_on": "2025-05-30T15:06:04Z",
       "last_active_csv": "2025-06-12T05:48:54.67Z",
@@ -582,17 +844,15 @@ const REPORT_DATA =
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-06-12T05:48:54.67Z",
-      "last_confluence_activity": "2025-06-12T05:48:54.67Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra8commercial8construction.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489114Z",
+      "scan_timestamp": "2025-12-26T10:11:16.839962Z",
       "user_count": 51,
       "created_on": "2025-05-22T12:51:00Z",
       "last_active_csv": "2025-05-22T12:51:49.532Z",
@@ -605,25 +865,30 @@ const REPORT_DATA =
         "jira"
       ],
       "jira_projects": {
-        "software": 0,
+        "software": 1,
         "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
+      "jira_project_details": [
+        {
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "project_type": "software",
+          "last_updated": null
+        }
+      ],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-05-22T12:51:49.532Z",
-      "last_confluence_activity": "2025-05-22T12:51:49.532Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": true,
       "has_confluence": false
     },
     {
       "url": "fluidra-team-z2r8z8xt.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489118Z",
+      "scan_timestamp": "2025-12-26T10:11:19.323333Z",
       "user_count": 51,
       "created_on": "2025-07-11T09:25:21Z",
       "last_active_csv": "2025-07-11T10:58:29.326Z",
@@ -641,20 +906,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-07-11T10:58:29.326Z",
-      "last_confluence_activity": "2025-07-11T10:58:29.326Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~712020d6ca9a37cfcb4b65b147e146277ed6f9",
+          "name": "Daniel Schweitzer",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "MFS",
+          "name": "My first space",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:49:18.938Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-kvo05i5m.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489122Z",
+      "scan_timestamp": "2025-12-26T10:11:21.960969Z",
       "user_count": 49,
       "created_on": "2024-12-19T07:52:41Z",
       "last_active_csv": null,
@@ -672,20 +954,25 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
+      "confluence_spaces": 1,
+      "confluence_space_details": [
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
       "installed_apps": [],
       "last_jira_activity": null,
-      "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_confluence_activity": "2025-12-25T08:49:23.872Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "ttrotta.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489126Z",
+      "scan_timestamp": "2025-12-26T10:11:24.969812Z",
       "user_count": 16,
       "created_on": "2023-07-18T00:20:52Z",
       "last_active_csv": "2023-07-19T00:57:29.422Z",
@@ -700,25 +987,49 @@ const REPORT_DATA =
         "confluence"
       ],
       "jira_projects": {
-        "software": 0,
-        "service_desk": 1,
+        "software": 1,
+        "service_desk": 0,
         "business": 0
       },
-      "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2023-07-19T00:57:29.422Z",
-      "last_confluence_activity": "2023-07-19T00:57:29.422Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "jira_project_details": [
+        {
+          "key": "TTP",
+          "name": "ttrotta-test-project",
+          "project_type": "software",
+          "last_updated": "2023-07-18T18:29:38.985-0700"
+        }
       ],
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~63fcfa35c6e77744a1dc4d70",
+          "name": "Tom Trotta",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "SD",
+          "name": "Software Development",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
+      ],
+      "installed_apps": [],
+      "last_jira_activity": "2023-07-18T18:29:38.985-0700",
+      "last_confluence_activity": "2025-12-25T08:49:32.764Z",
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-e9bpoo8q.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489130Z",
+      "scan_timestamp": "2025-12-26T10:11:26.710370Z",
       "user_count": 14,
       "created_on": "2025-03-07T08:34:21Z",
       "last_active_csv": "2025-06-25T14:37:50.727Z",
@@ -733,24 +1044,22 @@ const REPORT_DATA =
       ],
       "jira_projects": {
         "software": 0,
-        "service_desk": 1,
+        "service_desk": 0,
         "business": 0
       },
       "jira_project_details": [],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-06-25T14:37:50.727Z",
-      "last_confluence_activity": "2025-06-25T14:37:50.727Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": true,
       "has_confluence": false
     },
     {
       "url": "uk-it.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489134Z",
+      "scan_timestamp": "2025-12-26T10:11:29.460521Z",
       "user_count": 14,
       "created_on": "2025-12-09T10:54:15Z",
       "last_active_csv": "2025-12-12T16:18:40.834Z",
@@ -764,24 +1073,22 @@ const REPORT_DATA =
       ],
       "jira_projects": {
         "software": 0,
-        "service_desk": 1,
+        "service_desk": 0,
         "business": 0
       },
       "jira_project_details": [],
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-12-12T16:18:40.834Z",
-      "last_confluence_activity": "2025-12-12T16:18:40.834Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": true,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-cwte3a9b.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489137Z",
+      "scan_timestamp": "2025-12-26T10:11:30.892308Z",
       "user_count": 7,
       "created_on": "2025-03-24T03:54:36Z",
       "last_active_csv": null,
@@ -804,15 +1111,13 @@ const REPORT_DATA =
       "installed_apps": [],
       "last_jira_activity": null,
       "last_confluence_activity": null,
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-ncl79b6x.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489141Z",
+      "scan_timestamp": "2025-12-26T10:11:32.324955Z",
       "user_count": 7,
       "created_on": "2025-06-23T11:01:36Z",
       "last_active_csv": "2025-06-23T11:28:21.712Z",
@@ -833,17 +1138,15 @@ const REPORT_DATA =
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-06-23T11:28:21.712Z",
-      "last_confluence_activity": "2025-06-23T11:28:21.712Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-zn777383.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489148Z",
+      "scan_timestamp": "2025-12-26T10:11:34.582317Z",
       "user_count": 7,
       "created_on": "2025-04-03T13:36:14Z",
       "last_active_csv": "2025-12-05T13:38:26.321Z",
@@ -861,20 +1164,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-12-05T13:38:26.321Z",
-      "last_confluence_activity": "2025-12-05T13:38:26.321Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~6310c300d8850343ef589dd7",
+          "name": "Laurent Sentenac",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "OPRATIONS",
+          "name": "Opérations",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:50:13.493Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "quanlin.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489152Z",
+      "scan_timestamp": "2025-12-26T10:11:38.130634Z",
       "user_count": 7,
       "created_on": "2024-07-23T22:28:39Z",
       "last_active_csv": "2025-10-28T02:23:04.64Z",
@@ -892,20 +1212,43 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-10-28T02:23:04.64Z",
-      "last_confluence_activity": "2025-10-28T02:23:04.64Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 4,
+      "confluence_space_details": [
+        {
+          "key": "~63e0ef2586a66a7cc7a8ae7f",
+          "name": "Quan Lin",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "RESEARCH",
+          "name": "Research",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "RESEARCH1",
+          "name": "Research",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:50:19.602Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-sz73caze.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489156Z",
+      "scan_timestamp": "2025-12-26T10:11:41.670469Z",
       "user_count": 7,
       "created_on": "2025-06-17T04:19:56Z",
       "last_active_csv": "2025-08-13T03:18:26.633Z",
@@ -923,20 +1266,37 @@ const REPORT_DATA =
         "business": 0
       },
       "jira_project_details": [],
-      "confluence_spaces": 0,
-      "confluence_space_details": [],
-      "installed_apps": [],
-      "last_jira_activity": "2025-08-13T03:18:26.633Z",
-      "last_confluence_activity": "2025-08-13T03:18:26.633Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
+      "confluence_spaces": 3,
+      "confluence_space_details": [
+        {
+          "key": "~7120205441dcb7993e48f0a5b398d919d5ec68",
+          "name": "qnguyen",
+          "type": "personal",
+          "last_updated": null
+        },
+        {
+          "key": "RESEARCH",
+          "name": "Research",
+          "type": "global",
+          "last_updated": null
+        },
+        {
+          "key": "~7120202f57411c44344fecb185cab82b7b7724",
+          "name": "Miguel Ángel Ranero Villa",
+          "type": "personal",
+          "last_updated": null
+        }
       ],
+      "installed_apps": [],
+      "last_jira_activity": null,
+      "last_confluence_activity": "2025-12-25T08:50:22.605Z",
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     },
     {
       "url": "fluidra-team-ryikxs4f.atlassian.net",
-      "scan_timestamp": "2025-12-26T09:52:52.489159Z",
+      "scan_timestamp": "2025-12-26T10:11:43.147216Z",
       "user_count": 7,
       "created_on": "2025-05-27T13:01:05Z",
       "last_active_csv": "2025-06-23T10:58:07.863Z",
@@ -957,11 +1317,9 @@ const REPORT_DATA =
       "confluence_spaces": 0,
       "confluence_space_details": [],
       "installed_apps": [],
-      "last_jira_activity": "2025-06-23T10:58:07.863Z",
-      "last_confluence_activity": "2025-06-23T10:58:07.863Z",
-      "errors": [
-        "Datos de API no disponibles (modo --skip-api)"
-      ],
+      "last_jira_activity": null,
+      "last_confluence_activity": null,
+      "errors": [],
       "has_jira": false,
       "has_confluence": true
     }
