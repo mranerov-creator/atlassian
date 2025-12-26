@@ -1,5 +1,5 @@
 // Shadow IT Report - Embedded Data
-// Generated at: 2025-12-26T10:11:57Z
+// Generated at: 2025-12-26T10:23:36Z
 
 const REPORT_DATA = 
 {
@@ -1324,5 +1324,4 @@ const REPORT_DATA =
       "has_confluence": true
     }
   ]
-}
-;
+};
