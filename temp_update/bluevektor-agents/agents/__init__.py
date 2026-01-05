@@ -47,18 +47,4 @@ __all__ = [
     "A7BuilderAgent",
     "A7State",
     "create_a7_agent",
-    "A7State",
-    "create_a7_agent",
-    "register_all_agents",
 ]
-
-def register_all_agents():
-    """Register all available agents with the global registry."""
-    create_a0_agent()
-    create_a1_agent()
-    create_a2_agent()
-    create_a3_agent()
-    create_a4_agent()
-    create_a5_agent()
-    create_a6_agent()
-    create_a7_agent()

@@ -29,10 +29,6 @@ console = Console()
 def agents():
     """List all registered agents."""
     from core.orchestrator import agent_registry
-    from agents import register_all_agents
-    
-    # Ensure all agents are registered
-    register_all_agents()
     
     table = Table(title="BlueVektor Agents")
     table.add_column("ID", style="cyan")
