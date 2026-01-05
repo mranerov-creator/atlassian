@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  # PostgreSQL with pgvector for long-term memory and embeddings
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: bv-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-bluevektor}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bluevektor_dev}
+      POSTGRES_DB: ${POSTGRES_DB:-bluevektor_agents}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-bluevektor}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for session state, caching, and rate limiting
+  redis:
+    image: redis:7-alpine
+    container_name: bv-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Ollama for local LLM (optional, for low-cost tasks)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: bv-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    profiles:
+      - local-llm
+
+  # Main application (development)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bv-agents
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-bluevektor}:${POSTGRES_PASSWORD:-bluevektor_dev}@postgres:5432/${POSTGRES_DB:-bluevektor_agents}
+      - REDIS_URL=redis://redis:6379/0
+      - OLLAMA_URL=http://ollama:11434
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./knowledge:/app/knowledge
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    profiles:
+      - app
+
+volumes:
+  postgres_data:
+  redis_data:
+  ollama_data:
+
+networks:
+  default:
+    name: bluevektor-network
